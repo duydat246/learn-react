@@ -11,7 +11,7 @@ const HelloWorld = () => {
     }
     return (
         <div className="hello-world">
-            Hello, {formatName(user)}
+            Hello, {formatName(user)} + '1234'
         </div>
     )
 }
